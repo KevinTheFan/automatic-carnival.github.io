@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+.jumbotron {
+    color: darkgreen;
+    background-color: lightgreen;
+    font-family: Supermercado One;
+    text-align: center;
+    font-size: 60px;
+    background-position-y: 0;
+    margin-top: -80px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -81px;
+}
+
+.dropdown {
+    background-image: url("menu_pic.jpg");
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: Indie Flower;
+    list-style-type: none;
+    width: 25%;
+    height: 100%; 
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: darkred;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+p {
+    font-family: Inconsolata;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+    a
+}
